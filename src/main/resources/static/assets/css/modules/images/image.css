@@ -1,0 +1,9 @@
+.wm-module.wm-image{position: relative;overflow: hidden;}
+.wm-module.wm-image .content,.wm-module.wm-image .wm-button{position: absolute; left: 0;right: 0;padding:0 15px;z-index: 3;}
+.wm-module.wm-image .effect-hv{visibility: hidden;}
+@media (max-width: 767px){
+	.wm-module.wm-image .content .header{font-size: inherit!important;}
+	.wm-module.wm-image .content{top: 2%!important;}
+	.wm-module.wm-image .wm-button{bottom: 2%!important;}
+	.wm-module.wm-image .effect-hv{visibility: initial;}
+}

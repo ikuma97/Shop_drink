@@ -1,0 +1,47 @@
+.border-bottom-dashed{
+    border-bottom: 1px dashed #ccc !important;
+}
+.border-bottom-solid{
+    border-bottom: 1px solid #ccc !important;
+}
+.wrap-form-coupon .form-group .coupon-error{
+    border: 1px dashed #f88d81 !important;
+    color: #F06455 !important;
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+.wrap-form-coupon .form-group.has-error .coupon-error{
+    display: block;
+}
+.wrap-form-coupon #btnUseCoupon{
+    margin-right: 0;
+    margin-top: 5px;
+}
+.wrap-discount-coupon{
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background: #F0F0F0;
+    margin-bottom: 11px;
+    text-align: center;
+    color: #4AB4F0;
+    font-weight: bold;
+}
+.wrap-discount-coupon .remove{
+    text-align: left;
+    background: #F06455;
+    display: inline-block;
+    padding: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+.wrap-discount-coupon .discount{
+    text-align: right;
+    float: right;
+    margin-right: 10px
+}

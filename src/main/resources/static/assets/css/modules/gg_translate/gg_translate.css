@@ -1,0 +1,37 @@
+.wm-module.wm-langs .content{
+	padding: 0;
+}
+.wm-module.wm-langs .content .item {
+    display: block;
+    margin: 5px;
+}
+.wm-module.wm-langs.default .content .item {
+    display: inline-block;
+}
+.wm-module.wm-langs .content .item a{
+	display: flex;
+	align-items:center;
+}
+.wm-module.wm-langs .content .item span{
+	margin-left: 5px;
+}
+.wm-module.wm-langs.dropdown .content{
+	display: none;
+	position: absolute;	
+	left: 0;
+	background: #fff;
+	z-index: 100;
+	top: 100%;
+	width: 100%;
+}
+.wm-module.wm-langs.dropdown .dropdown.icon{
+	font-size: 15px;
+	line-height: 1;
+}
+.wm-module.wm-langs.dropdown{
+	display: initial;
+	position: relative;
+}
+body.index {
+	top: 0!important;
+}

@@ -1,0 +1,66 @@
+@font-face {
+    font-family:Product_Sans;src:url('../fonts/Product_Sans/Product_Sans_Regular.eot');
+    font-display: auto;
+    src:local('☺'),
+    url(../fonts/Product_Sans/Product_Sans_Regulard41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Product_Sans/Product_Sans_Regular.woff) format('woff'),
+    url(../fonts/Product_Sans/Product_Sans_Regular.ttf) format('truetype')
+}
+@font-face {
+    font-family:Product_Sans;src:url(../fonts/Product_Sans/Product_Sans_Italic.eot);
+    font-display: auto;
+    src:local('☺'),url(../fonts/Product_Sans/Product_Sans_Italicd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Product_Sans/Product_Sans_Italic.woff) format('woff'),
+    url(../fonts/Product_Sans/Product_Sans_Italic.ttf) format('truetype');font-style:italic
+}
+@font-face {
+    font-family:Product_Sans;src:url(../fonts/Product_Sans/Product_Sans_SemiBold.eot);
+    font-display: auto;
+    src:local('☺'),url(../fonts/Product_Sans/Product_Sans_SemiBoldd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Product_Sans/Product_Sans_SemiBold.woff) format('woff'),
+    url( ../fonts/Product_Sans/Product_Sans_SemiBold.ttf) format('truetype');font-weight:700
+}
+@font-face {
+font-family:Product_Sans;
+    font-display: auto;
+    src:url(../fonts/Product_Sans/Product_Sans_SemiBoldItalic.eot);src:local('☺'),
+    url(../fonts/Product_Sans/Product_Sans_SemiBoldItalicd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Product_Sans/Product_Sans_SemiBoldItalic.woff) format('woff'),
+    url(../../404.html) format('truetype');font-weight:700;font-style:italic
+}
+@font-face { 
+    font-family: Montserrat Alternates;
+    src: 
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-ThinItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-SemiBoldItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-LightItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf') ,
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Italic.ttf') ,
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-ExtraLightItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf') ,
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-ExtraBoldItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf'),
+    url('../../404.html'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-BlackItalic.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf'),
+    url('../fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf'); 
+}
+@font-face { 
+    font-family: Bungee Shade;
+    src: url('../fonts/Bungee_Shade/BungeeShade-Regular.ttf'); 
+}
+@font-face { 
+    font-family: Anton;
+    src:
+    url('../fonts/Anton/Anton-Regular.ttf'); 
+}
+@font-face { 
+    font-family: Pacifico;
+    src:
+    url('../fonts/Pacifico/Pacifico-Regular.ttf'); 
+}

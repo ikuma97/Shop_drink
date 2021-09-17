@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container col-6">
+    <h1>New User</h1>
+    <div class="col-md-auto">
+        <form th:object="${register}" th:action="@{register}" action="#" method="post">
+            <div>
+                <label th:text="Name" th:for="name"></label>
+                <input type="text" th:field="*{name}" class="form-control" placeholder="Name"/>
+            </div>
+            <div>
+                <label th:text="Phone" th:for="phone"></label>
+                <input type="text" th:field="*{phone}" class="form-control" placeholder="Phone"/>
+            </div>
+            <div style="clear: both; display: block; height: 10px"></div>
+            <div>
+                <label th:text="Email" th:for="email"></label>
+                <input type="text" th:field="*{email}" class="form-control" placeholder="email"/>
+            </div>
+            <div style="clear: both; display: block; height: 10px"></div>
+            <div>
+            <div style="clear: both; display: block; height: 10px"></div>
+            <div>
+                <label th:text="UserName" th:for="username"></label>
+                <input type="text" th:field="*{username}" class="form-control" placeholder="username"/>
+            </div>
+            <div style="clear: both; display: block; height: 10px"></div>
+            <div>
+                <label th:text="PassWord" th:for="passWord"></label>
+                <input type="text" th:field="*{passWord}" class="form-control" placeholder="passWord"/>
+            </div>
+            <div style="clear: both; display: block; height: 10px"></div>
+            <input type="submit" class="btn btn-success" value="Đăng kí tài khoản"/>
+        </form>
+    </div>
+</div>
+</body>
+</html>

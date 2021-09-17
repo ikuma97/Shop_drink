@@ -1,0 +1,4 @@
+.wm-module.wm-menu.ui.menu:not(.vertical) a.item.img * {visibility: hidden!important;}
+.wm-module.wm-menu.ui.menu:not(.vertical) a.item.img{color: transparent!important;}
+.wm-module.wm-menu.ui.menu.vertical a.item.img{background-image: initial!important;}
+.wm-module.wm-menu.ui.menu.vertical a.item.img img{display: none;}

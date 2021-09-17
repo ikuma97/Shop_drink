@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&amp;subset=vietnamese');
+
+.unpadded{padding:0!important}
+.wm-menu.nav-main{margin:0;}
+#row-fotter-one .ui.menu{
+  background:transparent;
+}
+#row-fotter-one .ui.menu .item,#row-fotter-one .ui.menu .item:hover{
+  color:#fff;
+}
+#end-row {
+  margin-bottom: 30px!important;
+  text-align: center;
+}
+
+.owl-carousel .owl-item img{
+  max-width:100%;
+  margin:auto;
+  width:initial!important;
+}
+.wm-module.wm-product .content .header h2 {font-size: 1.1em;}
+.menu-main .column .menu-main-h, .menu-main .column .tt-hotline {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+.wm-image.logo img {
+  width: auto !important;
+}
+.menu-main .column .menu-main-h .item i {
+  font-size: 25px;
+}
+.menu-main .column .menu-main-h .item {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #333;
+  background: none;
+}
+.menu-main .column .ui.menu .item:before {
+  height: 30px;
+  top: 50%;
+  margin-top: -15px;
+}
+.menu-main .column .tt-hotline .item i {
+  color: #F9B129;
+  font-size: 24px;
+}
+.menu-main .column .tt-hotline .item {
+  font-size: 20px;
+  padding: 8px 10px 18px 10px;
+  color: #333;
+
+}
+.menu-main .column .tt-hotline .item:before {
+  display:none;
+}
+.menu-main a.item:active, .menu-main a.item:hover {
+  background: none !important;
+  color: #fab93e !important;
+}
+.slider-bar .column {
+  padding: 0 !important;
+}
+.wm-image.img-home .animated span {
+  font-size: 18px;
+  line-height: initial;
+  color: #fff;
+  font-weight: 100;
+}
+.wm-image.img-home .animated {
+  font-size: 50px;
+  line-height: initial;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  font-style: italic;
+}
+.wm-image.img-home:hover {
+  box-shadow: 3px 4px 27px rgba(0, 0, 0, 0.35);
+  transform: scale(1.02);
+}
+.wm-image.img-home {
+  transition: 350ms;
+}
+.ui.padded.grid .row-one.wm-mobile {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.ui.padded.grid .row-two.wm-mobile {
+  background: #F2F3F8;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.ui.padded.grid .wm-mobile .ui.header {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Philosopher', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.ui.padded.grid .wm-free-text.tt-auto .ui.header:before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 60px;
+  height: 3px;
+  background: #fab93e;
+  margin-left: -30px;
+}
+.wm-product.products-h .ui.dividing.header {
+
+}
+#products .ui.pointing.menu .item {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 25px;
+  line-height: 40px;
+  margin-right: 15px;
+  margin-top: 9px;
+  border: 2px solid #e0e1e9;
+  font-weight: bold;
+  /* font-size: 81.25%; */
+  text-transform: capitalize;
+  border-radius: 50px;
+  color: #afafaf;
+}
+#products .ui.pointing.menu {
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  border: none;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+#products .ui.pointing.menu .item:hover, #products .ui.pointing.menu .item.active {
+  border-color: #EC5353 !important;
+  color: #EC5353  !important;
+}
+.ui.dimmer{
+  background:none !important;
+}
+.blurring.dimmed.dimmable>:not(.dimmer) {
+  -webkit-filter: none!important;
+  filter: none!important;
+}
+.products .products-h .cards .card {
+  border: none;
+  box-shadow: none;
+  background: none;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 4px solid transparent;
+  border-radius: 0;
+}
+.products .products-h .cards .card:hover {
+  border: 4px solid #E0E1E9;
+  box-shadow: none !important;
+  background: none;
+}
+.products .products-h .cards .card .ui.image {
+  background: none;
+}
+.products .products-h .cards .card > .content {
+  border: none;
+}
+.products .products-h .cards .card > .content .header h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #2b2c2f;
+  padding: 10px 0;
+}
+.products .products-h .cards .card > .content .floated.meta {
+  float: none;
+}
+.products .products-h .cards .card > .content .floated.meta .ui.red.header {
+  font-size: 20px;
+  text-align: center;
+}
+.products .products-h .cards .card .ui.buttons {
+  margin-bottom: 20px;
+}
+.products .products-h .cards .card .ui.buttons .ui.button {
+  display: inline-block;
+  width: 200px !important;
+  background: #ec5353;
+  flex: inherit;
+  color: #fff;
+  padding: 17px 10px;
+  border-radius: 50px;
+  margin: auto;
+}
+.products .products-h .cards .card  > .content .header h2:hover {
+  color: #f9b129;
+}
+.products .products-h .cards .card .ui.buttons .ui.button:hover {
+  background: #f9b129
+}
+#row-three {
+  background: url(https://quickfood.weba.vn/web/shop/images/quickfood/hinhanh/home-slide-1-1920x800.jpg) center center fixed;
+  background-size: 100%;
+}
+#row-three .column {
+  background: url(https://quickfood.weba.vn/web/shop/images/quickfood/hinhanh/parallax-03.png) center center fixed;
+  background-size: 100%;
+}
+#row-three .column .wm-free-text .content p {
+  line-height: 34px !important;
+}
+#row-three .column .wm-free-text .content {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.row-four .icon-tt img {
+  width: auto !important;
+  margin: auto;
+}
+.row-four .tt-auto .ui.header {
+  font-size: 16px !important;
+  padding: 16px 0;
+}
+.row-four .tt-auto .content p, .row-four .tt-auto .content p span {
+  font-size: 14px !important;
+  text-align: center;
+
+}
+.ui.padded.grid .row-four.wm-mobile {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+#row-five .column {
+  padding: 0;
+}
+#row-five .column .wm-image img:hover {
+  box-shadow: 0 5px 23px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  will-change: contents;
+  z-index: 2;
+}
+#row-five .column .wm-image img {
+  position: relative;
+  transition: 350ms;
+}
+#row-five .column .wm-image {
+  overflow: inherit;
+}
+#row-six .column {
+  padding: 0;
+}
+.footer-top {
+  background: #23201E;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.footer-top.wm-mobile .column {
+  border-left: 1px solid #414141 !important;
+  height: 160px;
+}
+.footer-top.wm-mobile .column:nth-child(1) {
+  border: none !important;
+}
+.footer-top.wm-mobile .title-footer .ui.header {
+  font-size: 21px !important;
+  color: #fff;
+  text-align: left !important;
+  text-transform: uppercase;
+}
+.footer-top.wm-mobile.column {
+  color: #fff !important;
+}
+.footer-top .ui.form .field>label {
+  color: #fff;
+}
+#row-fotter-one .ui.menu .item {
+  display: inline-flex;
+}
+.footer-top .wm-image img {
+  width: auto !important;
+}
+.breadcrumb.wm-mobile.column {
+  /*background: url(static/assets/image/index-gallery-2-480x394.jpg) center center;*/
+  background: url("https://quickfood.weba.vn/shop/images/quickfood/slider/1.png");
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.breadcrumb.wm-mobile.column .ui.segment {
+  background: none;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  font-weight: 100 !important;
+}
+.wm-post.home-news .cards .card, .wm-post.home-news .cards .card:hover {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.wm-post.home-news .cards .card .content {
+  padding: 15px 0;
+}
+.cont-right .header.item {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Philosopher', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 11px 10px;
+  border-bottom: 2px solid #757575;
+}
+.cont-right .ui.menu {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+.products .cont-right .products-h .cards .card {
+  background: #f9f9f9;
+}
+.cont-right .products-h .ui.header {
+  font-size: 30px !important;
+}
+.cont-cont .wm-module {
+  margin-bottom: 40px;
+}
+.wm-module.wm-p-detail .ui.header {
+  text-align: left !important;
+  font-size: 30px !important;
+}
+.products-h.dele-header .ui.header {
+  display: none;
+}
+.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover {
+  background: none !important;
+}
+.thanh-toan.wm-mobile.column .ui.header {
+  font-size: 24px !important;
+}
+.footer-top.wm-mobile.column .text_avatar.ui.fluid.image {
+  color: #fff !important;
+  margin-bottom: 10px;
+}
+
+@media (max-width:768px){
+  #menu-main .large.four.wide {
+    width: 50% !important;
+    float: right;
+  }
+  #menu-main .large.nine.wide {
+    width: 50% !important;
+    float: left;
+  }
+  .wm-widget.wm-cart:after {
+    display: block;
+    clear: both;
+    content: "";
+    margin-bottom: 15px;
+  }
+  .wm-image.logo img {
+    width: auto !important;
+    margin: auto;
+  }
+  .wm-image.img-home .animated {
+    font-size: 0.5em;
+  }
+}
+@media (max-width:468px){
+  #menu-main .large.four.wide .wm-module.wm-menu.default.menu.tt-hotline.mobile a.item:nth-child(1) {
+    display: none;
+  }
+  .row-one.wm-mobile.column .column {
+    width: 100%;
+  }
+  .wm-image.img-home .animated {
+    font-size: 38px;
+  }
+  #menu-main .column {
+    padding: 0;
+  }
+  #row-five .column {
+    width: 100%;
+  }
+  div#row-fotter-one .column {
+    margin-bottom: 40px;
+  }
+  #row-three .column .wm-free-text .content * {
+    font-size: 1.5em !important;
+  }
+}
